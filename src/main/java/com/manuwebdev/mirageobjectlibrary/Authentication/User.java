@@ -4,12 +4,14 @@
  */
 package com.manuwebdev.mirageobjectlibrary.Authentication;
 
+import java.io.Serializable;
+
 /**
  * Defines the User object which represents the 
  * physical user that is logged in at an {@link Extender}
  * @author Manuel Gauto
  */
-public class User {
+public class User implements Serializable{
    /**
      * Username used to log in
      */
