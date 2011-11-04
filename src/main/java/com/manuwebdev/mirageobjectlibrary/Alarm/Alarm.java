@@ -17,14 +17,54 @@ public class Alarm {
     User user;
             
     /**
-     * Constructor for alarm object.
+     * Constructor for Alarm object.
      * 
-     * @param Hour Integer representing hour of alarm
-     * @param Minute Integer representing minute of alarm
-     * @param Message Message that describes alarm
-     * @param user User alarm is registered to
+     * @param Hour Integer representing hour of Alarm
+     * @param Minute Integer representing minute of Alarm
+     * @param Message Message that describes Alarm
+     * @param user User Alarm is registered to
      */
-    public Alarm(int Hour, int Minute, String Message, User user){
-        
+    public Alarm(int Hour, int Minute, String Message, User User){
+        hour=Hour;
+        minute=Minute;
+        message=Message;
+        user=User;
+    }
+    
+    /**
+     * Returns the hour at which the Alarm will trigger.
+     * 
+     * @return Hour our at which Alarm will trigger
+     */
+    public int getAlarmHour(){
+        return hour;
+    }
+    
+    /**
+     * Returns the minute at which the Alarm will trigger.
+     * 
+     * @return Minute Returns the minute at which the Alarm will trigger.
+     */
+    public int getAlarmMinute(){
+        return minute;
+    }
+    
+    /**
+     * Return the message that the Alarm represents.
+     * 
+     * @return Message Message that Alarm represents.
+     */
+    public String getAlarmMessage(){
+        return message;
+    }
+    
+    /**
+     * Returns the user that created the Alarm as
+     * a User object.
+     * 
+     * @return User User that created the Alarm.
+     */
+    public User getAlarmUser(){
+        return user;
     }
 }
