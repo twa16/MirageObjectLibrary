@@ -4,7 +4,7 @@
 
   <groupId>com.manuwebdev</groupId>
   <artifactId>MirageObjectLibrary</artifactId>
-  <version>1.0-RELEASE</version>
+  <version>1.2-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>MirageObjectLibrary</name>
