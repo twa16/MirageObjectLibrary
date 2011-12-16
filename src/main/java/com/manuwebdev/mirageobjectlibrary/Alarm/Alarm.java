@@ -8,7 +8,7 @@ import com.manuwebdev.mirageobjectlibrary.Authentication.User;
 
 /**
  *
- * @author manuel
+ * @author Manuel Gauto
  */
 public class Alarm {
     int hour;
